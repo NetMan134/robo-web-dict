@@ -81,6 +81,7 @@ button:active {
 .flex {
   display: flex;
   padding: 30px 12px;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -121,4 +122,10 @@ input[type=radio] {
   .autocomplete {
     width: 100%;
   }
+}
+footer {
+  /* align-self: ; */
+  /* justify-self: flex-end; */
+  font-style: italic;
+  color: #555;
 }
